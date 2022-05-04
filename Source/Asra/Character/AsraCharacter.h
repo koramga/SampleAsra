@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Interface/AsraCharacterInterface.h"
 #include "AsraCharacter.generated.h"
 
 UCLASS()
-class ASRA_API AAsraCharacter : public ACharacter
+class ASRA_API AAsraCharacter : public ACharacter, public IAsraCharacterInterface
 {
 	GENERATED_BODY()
 
